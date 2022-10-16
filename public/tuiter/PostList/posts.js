@@ -1,0 +1,28 @@
+export default [
+    {   icon: '../Images/elonMusk.png',
+        userName: 'Elon Musk',
+        userNameSmall: '@elonmusk',
+        userNameTime: '23h',
+        title: 'Amazing show about <a class="text-primary wd-remove-underline">@Inspiration4x</a> mission!',
+        picture: '../Images/inspiration.png',
+        contentTitle: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
+        content: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...',
+        link: '<i class="fa-solid fa-link"></i> netflix.com',
+        reply: '4.2K',
+        retweet: '3.5K',
+        like: '37.5k'
+    },
+    {   icon: '../Images/newYork.png',
+        userName: 'New York Post',
+        userNameSmall: '@nypost',
+        userNameTime: '23h',
+        title: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk <a class="text-primary wd-remove-underline"> trib.al/nx2Gfaq </a>'   ,
+        picture: '../Images/reading.png',
+        contentTitle: '',
+        content: '',
+        link: '',
+        reply: '965',
+        retweet: '2.4K',
+        like: '4k'
+    },
+]

@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial";
+  background-color: black;
+  color:white;
+}
+
+.wd-border-color {
+  border-color: rgb(47, 51, 54);
+  width: 650px;
+}
+
+.wd-border-solid {
+  border-style: solid;
+}
+
+.wd-title {
+  font-size: 20px;
+  padding-left: 12px;
+}
+.wd-\@ {
+  font-size: 13px;
+  color: lightgray;
+  padding-bottom: 1px;
+  padding-left: 12px;
+}
+
+.wd-profile-icon {
+  padding-left: 16px;
+  padding-top: 12px;
+  float: left;
+  width: 76px;
+}
+
+.wd-profile-container {
+  width: 80%;
+  float: left;
+}
+
+.wd-author {
+  font-size: 15px;
+  padding-bottom: 12px;
+}
+
+.wd-context-intro{
+  font-size: 15px;
+  color: lightgray;
+  padding-bottom: 12px;
+  width: 506px;
+}
+
+.wd-context {
+  font-size: 15px;
+  color: lightgray;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.wd-twitter-board {
+  border-color: rgb(47, 51, 54);
+  border-radius: 25px;
+  width: 504px;
+}
+
+.wd-context-img-radius {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.wd-comments {
+  display: inline-block;
+  width: 24%;
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: "Arial";
+  background-color: black;
+  color:white;
+}
+
+.list-group-item {
+  background-color: black;
+  color:white
+}
+
+.wd-search-tuiter {
+  bottom: 10px;
+  left: 10px;
+}
+
+.wd-selected a:hover {
+  border:0;
+  color: rgb(29, 161, 242) !important;
+  border-bottom: solid 4px rgb(29, 161, 242) !important;
+}

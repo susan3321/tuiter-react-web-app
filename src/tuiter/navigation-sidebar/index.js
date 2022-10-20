@@ -9,36 +9,92 @@ const paths = pathname.split('/')
 const active = paths[2];
     return (
         <div className="list-group">
-            <a href="/#" className="list-group-item" >Tuiter</a>
+            <a href="/#" className="list-group-item" ><i className="bi bi-twitter text-primary"></i></a>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                Home
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-house-door-fill"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Home
+                    </div>
+                </div>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                Explore
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-basket"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Explore
+                    </div>
+                </div>
             </Link>
             <a href="/#" className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-                Notifications
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-bell-fill"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Notifications
+                    </div>
+                </div>
             </a>
             <a href="/#" className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-                Messages
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-envelope-fill"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Messages
+                    </div>
+                </div>
             </a>
             <a href="/#" className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-bookmark-fill"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Bookmarks
+                    </div>
+                </div>
             </a>
             <a href="/#" className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-                Lists
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-list-ul"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Lists
+                    </div>
+                </div>
             </a>
             <a href="/#" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                Profile
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-person-fill"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        Profile
+                    </div>
+                </div>
             </a>
             <a href="/#" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-                More
+                <div className={"row"}>
+                    <div className={"col-2"}>
+                        <i className="bi bi-three-dots"></i>
+                    </div>
+                    <div className={"col-10 d-none d-xl-block"}>
+                        More
+                    </div>
+                </div>
             </a>
         </div>
     );

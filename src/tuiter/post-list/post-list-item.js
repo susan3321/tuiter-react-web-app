@@ -23,10 +23,10 @@ const PostListItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img width={40} className={"rounded-circle"} src ={post.icon} />
+                    <img width={40} className={"rounded-circle"} src ={post.icon} alt="" />
                 </div>
                 <div className="col-10">
-                    <div>{post.userName} <a className="bg-color-blue"><i className="bi bi-patch-check-fill"></i></a> <a className="text-secondary wd-remove-underline">{post.userNameSmall} • {post.userNameTime}</a></div>
+                    <div>{post.userName} <i className="bi bi-patch-check-fill bg-color-blue"></i> <a href="/#" className="text-secondary wd-remove-underline">{post.userNameSmall} • {post.userNameTime}</a></div>
                     <div>{parse(post.title)}</div>
                     <div>
 

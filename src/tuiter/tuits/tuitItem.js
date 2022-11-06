@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
-import {useDispatch, useSelector} from "react-redux";
-import {createTuit,deleteTuit} from "../tuits/tuits-reducer";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "../tuits/tuits-reducer";
 
 
 const TuitItem = (input) => {

@@ -1,11 +1,9 @@
 import React from "react";
-import {useDispatch} from "react-redux";
 import "./index.css";
 import { useNavigate } from "react-router";
 
 const ProfileItem = (input) => {
     const profile = input.post;
-    const dispatch = useDispatch();
     const navigate = useNavigate();
 
     return (

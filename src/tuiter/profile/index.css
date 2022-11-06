@@ -1,0 +1,11 @@
+.picture_pos {
+    z-index: 999;
+    position: relative;
+    bottom: 80px;
+    left: 42px;
+    width: 150px;
+}
+
+.background_picture_pos {
+    margin-bottom: -40px;
+}

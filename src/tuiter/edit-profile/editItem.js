@@ -71,7 +71,7 @@ const EditItem = (input) => {
             </div>
             <div className="border mt-3">
                 <div className="text-secondary ps-2 input-box-bigger">Website</div>
-                <input className="ps-2 input-no-border" placeholder={profile.website}
+                <input className="ps-2 input-no-border" value={profile.website}
                        onChange={(e) => update({
                            ...profile,
                            website: e.target.value

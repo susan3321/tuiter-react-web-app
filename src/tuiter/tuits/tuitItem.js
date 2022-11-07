@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "../tuits/tuits-reducer";
+import TuitsStat from "./tuits-stat";
 
 
 const TuitItem = (input) => {
@@ -29,12 +30,7 @@ const TuitItem = (input) => {
 
                         </div>
                         <div className={"mt-2"}>
-                            <div className={"row"}>
-                                <div className={"col-3"}><i className="bi bi-chat"></i> {tuit.replies}</div>
-                                <div className={"col-3"}><i className="bi bi-reply"></i> {tuit.retuits}</div>
-                                <div className={"col-3"}><i className="bi bi-heart-fill text-danger"></i> {tuit.likes}</div>
-                                <div className={"col-3"}><i className="bi bi-box-arrow-up"></i></div>
-                            </div>
+                            <TuitsStat post={tuit}/>
                         </div>
                     </div>
                 </div>

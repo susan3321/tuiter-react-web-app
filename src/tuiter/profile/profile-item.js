@@ -23,8 +23,6 @@ const ProfileItem = (input) => {
                             <div className="col-9"><img className={"rounded-circle picture_pos"} src={`Images/${profile.profilePicture}`} alt=""/></div>
                             <div className="col-3"><button className="rounded-pill btn btn-light" onClick={() => navigate("../edit-profile")}>Edit Profile</button></div>
                          </div>
-
-
                     </div>
                     <h4 className="font-weight-bold">{profile.firstName} {profile.lastName}</h4>
                     <div>{profile.handle}</div>

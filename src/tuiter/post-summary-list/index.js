@@ -1,6 +1,6 @@
-import React,{useEffect} from "react";
+import React from "react";
 import PostSummaryItem from "./post-summary-item";
-import {useDispatch,useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
     const {tuits, loading} = useSelector(
